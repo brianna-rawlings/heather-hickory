@@ -1,0 +1,59 @@
+/* 1. Universal Reset and Box-Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Makes layout calculation much easier! */
+}
+
+/* 2. Body Styling (Background and Font) */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+/* 3. Header Styling */
+header {
+    background: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+/* 4. Main Content Container */
+main {
+    max-width: 900px; /* Limits the content width */
+    margin: 30px auto; /* Centers the container and adds vertical spacing */
+    padding: 20px;
+}
+
+/* 5. Section Styling */
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #007bff;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* 6. Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #ffffff;
+    margin-top: 40px;
+}
